@@ -1,2 +1,2 @@
 # Sisay-survey
-Survey for a local game store's commander night
+Sample Survey for a local game store's commander night
