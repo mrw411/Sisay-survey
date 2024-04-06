@@ -41,7 +41,22 @@
                     <textarea id="improve" name="improve" rows="3" cols="40" placeholder="Type your response here..."></textarea>
                 </label>
             </fieldset>
-            <fieldset></fieldset>
+            <fieldset>
+                <legend>Which of the following would you agree with? (Choose one)
+                    <radiobutton>
+                        <label for="prizes"><input id="prizes" type="radio" name="improve" value="p" class="inline">Include more variety in prizes.</label>
+                        <label for="hours"><input id="hours" type="radio" name="improve" value="h" class="inline">Increase game night hours</label>
+                        <label for="competitive"><input id="competitive" type="radio" name="improve" value="c" class="inline">Allow for more competitive pods</label>
+                    </radiobutton>
+                </legend>
+            </fieldset>
+            <fieldset>
+                <legend>What else would you like to see?
+                    <label for="variety"><input id="variety" type="checkbox" value="v" class="inline">Have more variety in cards sold</label>
+                    <label for="collab"><input id="collab" type="checkbox" value="co" class="inline">Collaborate with other local game stores</label>
+                </legend>
+            </fieldset>
+            <button id="submit" type="submit">Submit</button>
         </form>
     </body>
 </html>
